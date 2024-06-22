@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
-#include<string.h>
 int pass(int length){
 	srand(time(NULL));
 	for(int i=0;i<=length;i++){
