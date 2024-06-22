@@ -4,12 +4,11 @@
 int pass(int length){
 	srand(time(NULL));
 	for(int i=0;i<=length;i++){
-		printf("%c",'~'-rand()%104);
+		printf("%c",'~'-rand()%105);
 	}
 	printf("\n");
 }
 void main(int agrc, char *argv[]){
-	FILE *file;
 	if(argv[1]!=NULL){
 		pass(atoi(argv[1]));
 	}
